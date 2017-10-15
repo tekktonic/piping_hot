@@ -1,0 +1,18 @@
+* TODOs
+** Kernel
+*** TODO full routing protocol support (targeted and broadcast messages, routing to targets)
+*** TODO creation command
+
+** Outsider
+*** DONE content loading
+**** DONE content caching
+**** TODO support content other than images
+*** DONE drawing
+*** TODO music
+*** TODO sound
+** Maploader
+*** TODO figure out map format (possibly just a file containing creation messages?)
+*** TODO create loader
+** Event system
+*** inside the kernel?
+*** TODO create event format

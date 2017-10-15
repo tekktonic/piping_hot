@@ -1,0 +1,15 @@
+* messages
+** text based
+*** form of "id message".
+** kernel is always id 0
+** outsider is always id 1
+** mailman is always id 2
+** an event contains the id of the object that triggered it. collision message will include the id of the thing being collided with.
+** interface
+*** all object accept "die", which is the cleanup of the object
+*** there is no instantiation message, this "message" is that the program was started.
+**** instantiation arguments are passed via argv
+** additional interfaces
+*** all objects implement the "interfaces" message, which returns a colon separated list of the implemented interfaces
+basic object event loop: query mailman for events -> "id interfaces" -> ...
+ 
